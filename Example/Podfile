@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CSVParser_Example' do
+  pod 'CSVParser', :path => '../'
+
+  target 'CSVParser_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+  end
+end

@@ -1,0 +1,6 @@
+framework module CSVParser {
+  umbrella header "CSVParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

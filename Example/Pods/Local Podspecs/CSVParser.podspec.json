@@ -1,0 +1,22 @@
+{
+  "name": "CSVParser",
+  "version": "0.1.0",
+  "summary": "A short description of CSVParser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coybit/CSVParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coybit": "coybit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/coybit/CSVParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSVParser/Classes/**/*"
+}
